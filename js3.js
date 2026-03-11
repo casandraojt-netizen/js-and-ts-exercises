@@ -31,7 +31,7 @@ console.log(todo1updated);
 const updateTodo = (todos, id) => {
     return todos.map(todo => {
         if (todo.id === id) {
-            return { ...todo, done: true };
+            return { ...todo, done: !todo.done };
         }
         return todo;
     });
