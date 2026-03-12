@@ -48,4 +48,3 @@ function formatTodo(todo: Todo): string {
 console.log(formatTodo(todo1));
 console.log(formatTodo(todo2));
 console.log(formatTodo(todo3));
-
